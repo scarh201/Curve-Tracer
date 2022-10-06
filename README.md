@@ -20,3 +20,5 @@ electrical devices such as:
 Intended Software to be ran on: Keysight BenchVue
 
 Within each folder, the Sequence file (.bvseq) is intended to be executed on BenchVue. When ran, the script file (.bat) is called, which executes the GUI (.py) file. The GUI that appears allows users to initialize values and set boundaries, depending on the specifications of the component they are intending to utilize. Upon submission of these values, the GUI closes and writes a text file (.txt) which is passed back to the BenchVue Sequence. The Program Recursively measures characteristic values for each device and plots the characteristic curve.
+
+Example Data can be seen in the "data" folder.
